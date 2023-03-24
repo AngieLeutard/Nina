@@ -1,3 +1,24 @@
+@font-face {
+    font-family: "Spectral";
+    src: url(../assets/fonts/spectral-extrabolditalic.woff) format('woff');
+         font-weight: 800;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: "Spectral";
+    src: url(../assets/fonts/spectral-lightitalic.woff) format('woff');
+         font-weight: 300;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../assets/fonts/inter-regular.woff) format('woff');
+         font-weight: 400;
+         font-style: normal;
+}
+
 body {
 	max-width: 1920px;
 	margin: auto;
