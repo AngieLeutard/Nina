@@ -11,11 +11,42 @@
 		<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
 		<!-- <link href="https://fonts.googleapis.com/css?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet"> -->
 		<!-- <link href="https://fonts.googleapis.com/css?family=Inter|Spectral:extrabolditalic,lightitalic&display=swap" rel="stylesheet"> -->
+
+		<!-- Open Graph data -->
+
+		<meta property="og:title" content="Nina Carducci"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:url" content="https://nina-carducci-test.netlify.app/"/>
+		<meta property="og:image" content="./assets/images/nina.webp"/>
+		<meta property="og:description" content="Photographe spécialisée dans les portraits et l'événementiel, je vous propose mes services pour vos shootings, retouches et albums photos."/>
+
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" content="Photographe">
+		<meta name="twitter:site" content="https://nina-carducci-test.netlify.app/">
+		<meta name="twitter:title" content="Nina Carducci Photographe">
+		<meta name="twitter:description" content="Photographe spécialisée dans les portraits et l'événementiel, je vous propose mes services pour vos shootings, retouches et albums photos.">
+
+		<!-- Twitter Summary card images must be at least 200x200px -->
+		<meta name="twitter:image" content="./assets/images/nina.webp">
+
+		<script type="application/ld+json">
+			{
+				"@context" : "https://schema.org",
+				"@type" : "Person",
+				"name" : "Nina Carducci",
+				"alternateName": "Nina Photographe",
+				"description": "Photographe spécialisée dans les portraits et l'événementiel, je vous propose mes services pour vos shootings, retouches et albums photos.",
+				"url" : "https://nina-carducci-photographe-test.netlify.app/",
+				"sameAs": [
+					"https://www.instagram.com/ninacarducci.photo/?hl=fr",
+				]
+			}
+		</script>
 	</head>
 	<body>
-	<div class="top-header">
+	<header class="top-header" role="banner">
 		<h1 class="name">Nina Carducci - Photographe</h1>
-		<div class="nav">   
+		<nav class="nav" role="navigation">   
 			<ul>
 				<li><a href="#about">À propos</a></li>
 				<li><a href="#gallery">Galerie</a></li>
@@ -23,10 +54,9 @@
 				<li><a href="#contact">Contact</a></li>
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
 			</ul>
-		</div>
-	</div>
+		</nav>
+	</header>
 	<div id="header">
-
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -133,7 +163,7 @@
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-	<div id="contact">
+	<footer id="contact" role="contentinfo">
 		<div class="container">
 			<div class="form-container">
 				<h3>Une question ? Une demande de devis ?</h3>
@@ -152,7 +182,7 @@
 				<img alt="Photographie d'un appareil photo" src="./assets/images/camera.webp">
 			</div>
 		</div>
-	</div>
+	</footer>
 	</body>
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
