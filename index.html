@@ -7,11 +7,7 @@
 		<title>Nina Carducci - Photographe</title>
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="./assets/style.css">
-		<!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-		<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-		<!-- <link href="https://fonts.googleapis.com/css?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet"> -->
-		<!-- <link href="https://fonts.googleapis.com/css?family=Inter|Spectral:extrabolditalic,lightitalic&display=swap" rel="stylesheet"> -->
-
+		
 		<!-- Open Graph data -->
 
 		<meta property="og:title" content="Nina Carducci"/>
@@ -29,17 +25,30 @@
 		<!-- Twitter Summary card images must be at least 200x200px -->
 		<meta name="twitter:image" content="./assets/images/nina.webp">
 
-		<script type="application/ld+json">
+		<script type='application/ld+json'>
 			{
-				"@context" : "https://schema.org",
-				"@type" : "Person",
-				"name" : "Nina Carducci",
-				"alternateName": "Nina Photographe",
+				"@context": "http://www.schema.org",
+			  	"@type": "ProfessionalService",
+				"name": "Nina Carducci",
+				"url": "https://nina-carducci-photographe-test.netlify.app/",
+				"image": "./assets/images/nina.webp",
 				"description": "Photographe spécialisée dans les portraits et l'événementiel, je vous propose mes services pour vos shootings, retouches et albums photos.",
-				"url" : "https://nina-carducci-photographe-test.netlify.app/",
-				"sameAs": [
-					"https://www.instagram.com/ninacarducci.photo/?hl=fr",
-				]
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "68 avenue Alsace-Lorraine",
+					"addressLocality": "Bordeaux",
+					"addressRegion": "NA",
+					"postalCode": "33200",
+					"addressCountry": "France"
+				},
+				"geo": {
+					"@type": "GeoCoordinates",
+					"latitude": "44.84660",
+					"longitude": "-0.60653"
+				},
+				"hasMap": "https://goo.gl/maps/Nq1wt7Gr72mCHXrF6",
+				"openingHours": "Mo 10:00-19:00 Tu 10:00-19:00 We 10:00-19:00 Th 10:00-19:00 Fr 10:00-10:00",
+			  	"telephone": "+33556677889"
 			}
 		</script>
 	</head>
